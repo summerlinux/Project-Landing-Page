@@ -25,22 +25,43 @@ a {
 }
 
 .section_One {
-    display: flex;
-    border: 1px solid red;
     background-color: #1F2937;
-    flex-grow: 1;
-    padding: 20px 120px;
-}
-
-.One_title {
-    color:white;
-    font-weight: 900;
-    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
 }
 
 .One_text {
-    color: white;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin: 0px 120px;
+    width: 500px;
 }
+
+.One_title {
+    font-size: 48px;
+    font-weight: 900;
+    color:white;
+}
+
+.One_more {
+    color:white;
+}
+
+.firstbutton {
+    display: flex;
+    margin-left:120px;
+    margin-top: 20px;
+}
+
 img {
-    width: 200px;
+    width: 300px;;
+    height: auto;
 }
+   
+
+
+
+
+
