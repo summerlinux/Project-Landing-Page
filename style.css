@@ -1,0 +1,46 @@
+* {
+    font-family: sans-serif, 'Roboto';
+}
+
+body {
+    margin: 0;
+}
+
+header{
+    background-color:#1F2937;
+    display: flex;
+    padding: 20px 120px;
+    justify-content: space-between;
+}
+
+.headerLogo {
+    font-weight: 700;
+    color:white;
+}
+
+a {
+    color:#E5E7EB;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.section_One {
+    display: flex;
+    border: 1px solid red;
+    background-color: #1F2937;
+    flex-grow: 1;
+    padding: 20px 120px;
+}
+
+.One_title {
+    color:white;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.One_text {
+    color: white;
+}
+img {
+    width: 200px;
+}
